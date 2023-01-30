@@ -1,0 +1,49 @@
+body{
+    background:#000;
+    color: #fff;
+}
+
+
+.container{
+    text-align: center;
+}
+
+button{
+    height: 2.5em;
+    width: 5.5em;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.start-btn{
+    background-color: green;
+}
+
+.start-btn:hover{
+    transition: .5s;
+    background-color: #fff;
+    color: green;
+}
+
+.pause-btn{
+    background-color: grey;
+}
+
+.pause-btn:hover{
+    transition: .5s;
+    background-color: #fff;
+    color: grey;
+}
+
+
+.restart-btn{
+    background-color: red;
+}
+
+.restart-btn:hover{
+    transition: .5s;
+    background-color: #fff;
+    color: red;
+}
